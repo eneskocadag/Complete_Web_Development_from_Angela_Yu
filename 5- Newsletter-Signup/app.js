@@ -30,7 +30,7 @@ app.post("/", (req, res) => {
   const url = "Mail-chimp URI";
   const options = {
     method: "POST",
-    auth: "enesto:9f0c8b359013ef8b1b1cd2a8555a8f47-us5",
+    auth: "",
   };
   const dataJson = JSON.stringify(data);
   const request = https.request(url, options, (response) => {
